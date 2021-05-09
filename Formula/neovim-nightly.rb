@@ -3,7 +3,7 @@ class NeovimNightly < Formula
   homepage "https://neovim.io/"
   license "Apache-2.0"
   url "https://github.com/neovim/neovim/releases/download/v#{version}/nvim.appimage"
-  version :nightly
+  version "nightly"
 
   bottle :unneeded
   cxxstdlib_check :skip
