@@ -2,7 +2,7 @@ class NeovimNightly < Formula
   desc "Ambitious Vim-fork focused on extensibility and agility"
   homepage "https://neovim.io/"
   license "Apache-2.0"
-  url "https://github.com/neovim/neovim/releases/download/v#{version}/nvim.appimage"
+  url "https://github.com/neovim/neovim/releases/download/nightly/nvim.appimage"
   version "nightly"
 
   bottle :unneeded
