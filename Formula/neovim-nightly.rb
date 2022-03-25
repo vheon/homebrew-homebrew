@@ -4,7 +4,6 @@ class NeovimNightly < Formula
   license "Apache-2.0"
   head "https://github.com/neovim/neovim/releases/download/nightly/nvim.appimage"
 
-  bottle :unneeded
   cxxstdlib_check :skip
   conflicts_with "neovim", "neovim-binary"
 
