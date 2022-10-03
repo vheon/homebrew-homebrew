@@ -7,5 +7,5 @@ cask "font-nonicons" do
   desc "Icon font inspired by Octicons"
   homepage "https://github.com/yamatsum/nonicons"
 
-  font "nonicon.ttf"
+  font "nonicons.ttf"
 end
