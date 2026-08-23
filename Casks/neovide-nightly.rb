@@ -10,7 +10,7 @@ cask "neovide-nightly" do
   desc "No Nonsense Neovim Client in Rust"
   homepage "https://neovide.dev"
 
-  binary "neovide-macos-#{arch}/bin/nvim"
+  binary "neovide"
 
   postflight do
     system_command "xattr", args: ["-cr", "#{staged_path}"]
